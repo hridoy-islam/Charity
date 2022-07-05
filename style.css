@@ -2,3 +2,72 @@ body {
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.overlay {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background: url(images/donation4.jpg) no-repeat 0 0 / 100% 100%;
+    /* background: linear-gradient(#ffffff, #121212); */
+    padding: 150px;
+}
+.donate-button{
+    background: #FF5959;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    margin: 30px auto;
+    padding: 15px 5px;
+    border-radius: 5px;
+    border: none;
+}
+#main-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+header p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 100px;
+}
+.donate-today {
+    padding: 70px 100px;
+}
+.donate-today h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.donate-today p {
+    text-align: center;
+}
+#ammount {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #1E1E1E;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 
+
+
+
+
+*/
