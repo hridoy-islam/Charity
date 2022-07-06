@@ -31,8 +31,9 @@ h3{
 .align-center {
     text-align: center;
 }
-
-
+input:focus {
+    outline: none;
+}
 .donate-button{
     background: #FF5959;
     color: #ffffff;
@@ -114,9 +115,6 @@ header p {
     text-align: center;
     font-size: 18px;
 }
-#ammount:focus {
-    outline: none;
-}
 
 
 
@@ -186,7 +184,7 @@ donate Plan
     border-radius: 0 10px 10px 0;
 }
 
-
+/* Footer */
 footer {
     background: #0B0D17;
     padding: 10px 0;
