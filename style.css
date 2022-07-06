@@ -19,15 +19,20 @@ h2 {
     font-size: 45px;
     text-align: center;
 }
-.overlay {
+h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.container {
     width: 90%;
     margin: 0 auto;
 }
-header {
-    background: url(images/donation4.jpg) no-repeat 0 0 / 100% 100%;
-    /* background: linear-gradient(#ffffff, #121212); */
-    padding: 150px;
+.align-center {
+    text-align: center;
 }
+
+
 .donate-button{
     background: #FF5959;
     color: #ffffff;
@@ -43,19 +48,46 @@ header {
     border-radius: 5px;
     border: none;
 }
+
+/* Header Section */
+
+header {
+    background: url(images/donation4.jpg) no-repeat 0 0 / 100% 100%;
+    /* background: linear-gradient(#ffffff, #121212); */
+    padding: 150px;
+}
 #main-heading {
     color: #ffffff;
 }
 header p {
-    text-align: center;
     color: #ffffff;
 }
+
+/* Donate Today */
+
 .donate-today {
-    padding: 70px 100px;
+    padding: 50px;
 }
 
-.donate-today p {
+
+.donate-today ul {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.donate-today ul li {
+    display: inline-block;
+    padding: 35px 15px;
+    font-size: 30px;
+    font-family: "inter";
+    font-weight: 700;
     text-align: center;
+    border-radius: 5px;
+}
+.donatation-active {
+    border: 1px solid #FF5959;
+    color: #FF5959;
+    background-color: #FFEEEE;
 }
 #ammount {
     width: 60%;
@@ -69,37 +101,65 @@ header p {
 }
 #ammount:focus {
     outline: none;
-    
 }
 
-.donate-today ul {
-    width: 70%;
-    margin: 50px auto;
-}
-
-.donate-today ul li {
-    display: inline-block;
-    padding: 35px 15px;
-    margin: 0 5px;
-    font-size: 30px;
-    font-family: "inter";
-    font-weight: 700;
-    text-align: center;
-    border-radius: 5px;
-}
-.donatation-active {
-    border: 1px solid #FF5959;
-    color: #FF5959;
-    background-color: #FFEEEE;
-}
 
 
 /* 
-
-
-
-
+donate Plan
 */
+.plan {
+    padding: 50px 0;
+}
+.donate-plan-container {
+    display: flex;
+    margin-top: 40px;
+}
+.donate-plan{
+    padding: 70px  40px 50px 40px;
+    border-radius: 10px;
+}
+.food-family {
+    background-color: #EDF5F6;
+}
+.shelter-family {
+ background-color: #FFEEEE;
+ margin: 0 30px;
+}
+.education {
+    background-color: #FFF4D6;
+}
+
+/* Subscription Section */
+.subscription {
+    padding: 100px 0;
+}
+
+.subscription-form {
+    background-color: #FFF4D6;
+    padding: 100px 100px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.subscription-form input{
+    padding: 15px;
+    border: none;
+}
+.subscription-form input[type="email"]{
+    width: 60%;
+    background: #D9D9D9;
+    border-radius: 10px 0 0 10px;
+}
+.subscription-form input[type="submit"]{
+    width: 40%;
+    background: #FF5959;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+}
+
 
 footer {
     background: #0B0D17;
